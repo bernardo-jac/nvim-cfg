@@ -1,4 +1,5 @@
-require("core.keymaps")
+-- Core config needs to be loaded prior to lazy.
+require("core.config")
 
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 
